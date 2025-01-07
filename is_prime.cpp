@@ -14,7 +14,7 @@ int erat(int n){
         }
     }
     for (int p = 2; p <= n; p++){
-        if (numbers[p]){
+        if (numbers[p] == true){
             cout << p << " ";
         }
 }
